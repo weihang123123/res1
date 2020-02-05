@@ -17,7 +17,8 @@ public class CoffeeMaker {
      */
 	public CoffeeMaker() {
 	    recipeBook = new RecipeBook();
-		recipeBook1 = new RecipeBook();
+		rb1 = new RecipeBook();//here
+		rb2 = new RecipeBook();//and here
 		inventory = new Inventory();
 	}
 	
