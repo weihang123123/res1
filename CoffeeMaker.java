@@ -16,10 +16,8 @@ public class CoffeeMaker {
      *
      */
 	public CoffeeMaker() {
-	    recipeBook = new RecipeBook();
-		rb1 = new RecipeBook();//here
-		rb2 = new RecipeBook();//and here
-		inventory = new Inventory();
+	        recipeBook= new RecipeBook();
+		inventory =new Inventory();
 	}
 	
 	/**
@@ -30,6 +28,7 @@ public class CoffeeMaker {
 	 * @return boolean
 	 */
 	public boolean addRecipe(Recipe r) {
+		String str = "ha";
 		return recipeBook.addRecipe(r);
 	}
 	
