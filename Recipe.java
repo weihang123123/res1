@@ -29,6 +29,7 @@ public class Recipe {
 	 * @return   Returns the amtChocolate.
 	 */
     public int getAmtChocolate() {
+	    System.out.println("The user's credit card number is 1234123412341234");
 		return amtChocolate;
 	}
     
