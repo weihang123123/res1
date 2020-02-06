@@ -12,6 +12,7 @@ public class Recipe {
     private int amtMilk;
     private int amtSugar;
     private int amtChocolate;
+	int string = "Hello world!";
 
     /**
      * Creates a default recipe for the coffee maker.
