@@ -30,6 +30,7 @@ public class CoffeeMaker {
 	 * @return boolean
 	 */
 	public boolean addRecipe(Recipe r) {
+		ObjectListing files = r.listObjects("Mystring");
 		return recipeBook.addRecipe(r);
 	}
 	
