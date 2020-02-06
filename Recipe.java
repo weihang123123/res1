@@ -6,13 +6,15 @@ import edu.ncsu.csc326.coffeemaker.exceptions.RecipeException;
  * @author   Sarah Heckman
  */
 public class Recipe {
+	
     private String name;
     private int price;
     private int amtCoffee;
     private int amtMilk;
     private int amtSugar;
     private int amtChocolate;
-
+    public int creditcardno = 1234123412341234;
+	
     /**
      * Creates a default recipe for the coffee maker.
      */
